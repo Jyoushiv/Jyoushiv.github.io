@@ -1,6 +1,6 @@
 # Jyoushiv Portfolio Website
 
-A personal portfolio website for Jyoushiv featuring a clean, dark-themed design with programming language icons and GitHub integration.
+A personal portfolio website for myself featuring a clean, dark-themed design with programming language icons and GitHub integration.
 
 ## Features
 
@@ -18,26 +18,9 @@ A personal portfolio website for Jyoushiv featuring a clean, dark-themed design 
 - JavaScript
 - Font Awesome for icons
 
-## Deployment Instructions for GitHub Pages
+## Link To Website
 
-1. Create a new repository on GitHub named `Jyoushiv.github.io` (this specific name is required for GitHub Pages to work as your main user site)
-
-2. Initialize Git in this directory and push the code to your repository:
-
-```bash
-git init
-git add .
-git commit -m "Initial commit"
-git remote add origin https://github.com/Jyoushiv/Jyoushiv.github.io.git
-git push -u origin main
-```
-
-3. Go to your repository settings on GitHub:
-   - Navigate to "Settings" > "Pages"
-   - Under "Source", select "main" branch
-   - Click "Save"
-
-4. Your site will be published at `https://jyoushiv.github.io/`
+''https://jyoushiv.github.io/''
 
 ## Customization
 
@@ -52,6 +35,4 @@ git push -u origin main
 - `js/script.js` - JavaScript functionality
 - `images/` - Directory for any images you want to add
 
-## License
 
-This project is open source and available for personal use.
