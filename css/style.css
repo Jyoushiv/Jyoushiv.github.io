@@ -17,7 +17,7 @@
 }
 
 html, body {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-family: 'JetBrains Mono', 'Fira Code', 'Cascadia Code', monospace;
     background-color: var(--bg-color);
     color: var(--text-color);
     line-height: 1.6;
@@ -45,6 +45,7 @@ header {
     text-decoration: none;
     font-size: 1.2rem;
     font-weight: bold;
+    font-family: 'JetBrains Mono', 'Fira Code', 'Cascadia Code', monospace;
 }
 
 .theme-toggle {
@@ -71,6 +72,7 @@ main {
 .greeting {
     font-size: 1.8rem;
     margin-bottom: 2rem;
+    font-family: 'JetBrains Mono', 'Fira Code', 'Cascadia Code', monospace;
 }
 
 .wave {
@@ -115,6 +117,7 @@ main {
     color: white;
     font-weight: 500;
     transition: transform 0.2s ease, opacity 0.2s ease;
+    font-family: 'JetBrains Mono', 'Fira Code', 'Cascadia Code', monospace;
 }
 
 .btn:hover {
@@ -153,6 +156,7 @@ main {
     margin-bottom: 1rem;
     font-weight: normal;
     opacity: 0.8;
+    font-family: 'JetBrains Mono', 'Fira Code', 'Cascadia Code', monospace;
 }
 
 .tech-icons {
@@ -202,7 +206,7 @@ main {
 }
 
 .ts-icon, .csharp-icon {
-    font-family: monospace;
+    font-family: 'JetBrains Mono', 'Fira Code', 'Cascadia Code', monospace;
     font-weight: bold;
 }
 
@@ -237,6 +241,7 @@ footer {
     margin-bottom: 1rem;
     display: flex;
     align-items: center;
+    font-family: 'JetBrains Mono', 'Fira Code', 'Cascadia Code', monospace;
 }
 
 .back-link i {
@@ -247,7 +252,7 @@ footer {
     font-size: 1.5rem;
     color: var(--accent-color);
     margin-bottom: 2rem;
-    font-family: monospace;
+    font-family: 'JetBrains Mono', 'Fira Code', 'Cascadia Code', monospace;
 }
 
 .content-section {
@@ -262,6 +267,7 @@ footer {
 .content-section h2 {
     margin-bottom: 1rem;
     font-size: 1.5rem;
+    font-family: 'JetBrains Mono', 'Fira Code', 'Cascadia Code', monospace;
 }
 
 .return-home {
@@ -275,6 +281,7 @@ footer {
     border: 1px solid var(--accent-color);
     border-radius: 0.25rem;
     transition: background-color 0.2s ease, color 0.2s ease;
+    font-family: 'JetBrains Mono', 'Fira Code', 'Cascadia Code', monospace;
 }
 
 .return-home a:hover {
@@ -291,6 +298,7 @@ footer {
     display: flex;
     align-items: center;
     margin: 1rem 0;
+    font-family: 'JetBrains Mono', 'Fira Code', 'Cascadia Code', monospace;
 }
 
 .contact-item i {
@@ -326,6 +334,7 @@ footer {
 .project-card h3 {
     margin-bottom: 0.5rem;
     color: #10b981;
+    font-family: 'JetBrains Mono', 'Fira Code', 'Cascadia Code', monospace;
 }
 
 .project-tech {
@@ -337,6 +346,7 @@ footer {
 .project-card p {
     margin-bottom: 1rem;
     opacity: 0.8;
+    font-family: 'JetBrains Mono', 'Fira Code', 'Cascadia Code', monospace;
 }
 
 .project-links {
@@ -349,7 +359,7 @@ footer {
     text-decoration: none;
     display: inline-flex;
     align-items: center;
-    font-family: monospace;
+    font-family: 'JetBrains Mono', 'Fira Code', 'Cascadia Code', monospace;
 }
 
 .project-link i {
@@ -373,6 +383,7 @@ footer {
 .link-item {
     display: flex;
     align-items: center;
+    font-family: 'JetBrains Mono', 'Fira Code', 'Cascadia Code', monospace;
 }
 
 .link-item i {
@@ -397,6 +408,7 @@ footer {
     align-items: center;
     justify-content: center;
     gap: 1rem;
+    font-family: 'JetBrains Mono', 'Fira Code', 'Cascadia Code', monospace;
 }
 
 .palm-tree-icon {
