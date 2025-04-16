@@ -31,3 +31,18 @@ footer p {
     margin-top: 15px;
     color: rgba(255, 255, 255, 0.6);
 }
+/* Light Theme Styles */
+[data-theme="light"] {
+    --bg-color: #f4f4f4;
+    --text-color: #121212;
+    --accent-color: #3498db;
+    --secondary-bg: #ffffff;
+    --button-green: #10b981;
+    --button-pink: #ec4899;
+    --button-purple: #8b5cf6;
+    --button-blue: #0ea5e9;
+}
+
+[data-theme="light"] .social-icon:hover {
+    color: var(--accent-color);
+}
