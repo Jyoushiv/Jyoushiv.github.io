@@ -6,9 +6,12 @@ document.addEventListener('DOMContentLoaded', function() {
     const savedTheme = localStorage.getItem('theme');
     if (savedTheme) {
         html.setAttribute('data-theme', savedTheme);
-        if (savedTheme === 'light') {
-            themeToggle.innerHTML = '<i class="fas fa-sun"></i>';
-        }
+        updateThemeIcon(savedTheme);
+    } else {
+        // Default to dark theme if no preference is saved
+        html.setAttribute('data-theme', 'dark');
+        localStorage.setItem('theme', 'dark');
+        updateThemeIcon('dark');
     }
 
     // Theme toggle click handler
@@ -18,11 +21,15 @@ document.addEventListener('DOMContentLoaded', function() {
 
         html.setAttribute('data-theme', newTheme);
         localStorage.setItem('theme', newTheme);
+        updateThemeIcon(newTheme);
+    });
 
-        themeToggle.innerHTML = newTheme === 'light' ? 
+    // Function to update theme icon
+    function updateThemeIcon(theme) {
+        themeToggle.innerHTML = theme === 'light' ? 
             '<i class="fas fa-sun"></i>' : 
             '<i class="fas fa-moon"></i>';
-    });
+    }
 
     // Hover animation for tech icons
     const techIcons = document.querySelectorAll('.tech-icon');
@@ -32,24 +39,6 @@ document.addEventListener('DOMContentLoaded', function() {
         });
         icon.addEventListener('mouseleave', function() {
             this.style.transform = 'scale(1)';
-        });
-    });
-
-    // Smooth scroll for internal links
-    const navLinks = document.querySelectorAll('a[href^="#"]');
-    navLinks.forEach(link => {
-        link.addEventListener('click', function(e) {
-            if (this.getAttribute('href').startsWith('#')) {
-                e.preventDefault();
-                const targetId = this.getAttribute('href');
-                const targetElement = document.querySelector(targetId);
-                if (targetElement) {
-                    window.scrollTo({
-                        top: targetElement.offsetTop - 100,
-                        behavior: 'smooth'
-                    });
-                }
-            }
         });
     });
 });
